@@ -1,0 +1,8 @@
+model = {
+	lods = {	
+		{"A400M_Atlas.edm",1000.000000};
+		{"A400M_Atlas_lod01.edm",5000.000000};
+		{"A400M_Atlas_lod02.edm",50000.000000};	
+	};
+	collision_shell = "a400m_atlas-collision.edm";
+}

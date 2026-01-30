@@ -1,0 +1,8 @@
+model = {
+	lods = {
+		{"KC_10_Extender.edm",1000.000000};
+		{"KC_10_Extender_lod01.edm",5000.000000};
+		{"KC_10_Extender_lod02.edm",50000.000000};
+	};
+	collision_shell = "KC_10_Extender-collision.edm";
+}

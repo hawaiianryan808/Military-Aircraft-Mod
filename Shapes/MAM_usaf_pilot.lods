@@ -1,0 +1,5 @@
+model = {
+	lods = {
+		{"MAM_usaf_pilot.edm",1000.000000};
+	};
+}

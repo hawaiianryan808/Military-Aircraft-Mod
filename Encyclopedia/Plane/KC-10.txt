@@ -1,0 +1,32 @@
+KC-10A
+
+kc_10_extender
+
+
+Name: McDonnell Douglas KC-10A Extender
+Type: Flight refueling tanker
+In service: 1981
+Crew: 4
+Capacity: 
+	77,111 kg (170,000 lb) cargo
+	25 pallets and 16 passengers
+	17 pallets and 75 passengers
+Length: 55.35 m (181 ft 7 in)
+Height: 17.7 m (58 ft 1 in)
+Wing span: 50.406 m (165 ft 4.5 in)
+Wing area: 367.7 m² (3,958 sq ft)
+Weight empty: 109,328 kg (241,027 lb)
+Normal weight: 267,619 kg (241,027 lb)
+Maximum weight:268,980 kg (593,000 lb)
+Maximum mach at height: 0.89
+Maximum fuel: 165,561 kg (365,000 lb)
+Service ceiling: 13,000 m (42,000 ft)
+Maximum range: 7,100 km (3,800 nmi) with maximum load
+Takeoff distance: 3,000 m (9,840 ft)
+Landing distance: 1,800 m (5,900 ft)
+Powerplant: 3 x General Electric F103 turbofan engines, 234 kN (52,500 lbf) each
+
+
+The McDonnell Douglas KC-10 Extender is an American aerial refueling tanker aircraft operated by the United States Air Force (USAF). A military version of the three-engined DC-10 airliner, the KC-10 was developed from the Advanced Tanker Cargo Aircraft Program. It incorporates military-specific equipment for its primary roles of transport and aerial refueling. It was developed to supplement the KC-135 Stratotanker following experiences in Southeast Asia and the Middle East. The KC-10 was the second McDonnell Douglas transport aircraft to be selected by the Air Force following the C-9. A total of 60 KC-10s were produced for the USAF. The Royal Netherlands Air Force operates two similar tankers designated KDC-10 that were converted from DC-10s.
+
+The KC-10 plays a key role in the mobilization of US military assets, taking part in overseas operations far from home. These aircraft performed airlift and aerial refueling during the 1986 bombing of Libya (Operation Eldorado Canyon), the 1990–91 Gulf War with Iraq (Operations Desert Shield and Desert Storm), the NATO bombing of Yugoslavia (Operation Allied Force), War in Afghanistan (Operation Enduring Freedom), and Iraq War (Operations Iraqi Freedom and New Dawn). 

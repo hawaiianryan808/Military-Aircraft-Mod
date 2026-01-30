@@ -1,0 +1,34 @@
+A400M
+
+a400m_atlas
+
+
+Name: Airbus A400M Atlas
+Type: Tactical transport
+In service: 2013
+Crew: 3 or 4 (2 pilots, 3rd optional, 1 loadmaster)
+Capacity: 37,000 kg (81,600 lb)
+	116 toops/paratroopers
+	66 stretchers + 25 medical personnel
+	
+Payload: compartment 4 m (13 ft 2 in) x 3.85 m (12 ft 7 in) x 17.71 m (58 ft 1 in)
+Length: 45.1 m (148 ft)
+Height: 14.7 m (48 ft 3 in)
+Wing span: 42.4 m (139 ft 1 in)
+Wing area: 225.1 m² (2,384 sq ft)
+Maximum Mach at height: 0.72
+Weight empty: 76,500 kg (168,654 lb)
+Normal weight: 120,000 kg (264,555 lb)
+Maximum weight: 141,000 kg (310,852 lb)
+Maximum fuel: 50,500 kg (111,300 lb) internals
+Service ceiling: 12,200 m (40,000 ft)
+Range with nominal load: 4,500 km (2,450 nmi)
+Ferry range: 8,700 km (4,700 nmi)
+Tactical takeoff distance: 900 m at 100,000 kg (3,215 ft at 220,000 lb)
+Tactical landing distance: 770 m (2,530 ft)
+Powerplant: 4 x Europrop TP400-D6 turboprops, 8,200 kW (11,000 hp) each
+
+
+The Airbus A400M Atlas is a European four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules. The A400M is between the C-130 and the Boeing C-17 in size; it can carry heavier loads than the C-130 and is able to use rough landing strips. Along with the transport role, the A400M can perform aerial refueling and medical evacuation when fitted with appropriate equipment.
+
+The A400M's maiden flight, originally planned for 2008, took place on 11 December 2009 from Seville Airport, Spain. Between 2009 and 2010, the A400M faced cancellation as a result of development programme delays and cost overruns; however, the customer nations chose to maintain their support for the project. A total of 174 A400M aircraft had been ordered by eight nations by July 2011. In March 2013, the A400M received European Aviation Safety Agency (EASA) certification. The first aircraft was delivered to the French Air Force in August 2013. 

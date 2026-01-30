@@ -1,0 +1,39 @@
+C-5A
+
+c5_galaxy
+
+
+Name: Lockheed C-5A Galaxy
+Type: Long-range heavy cargo transport
+In service: 1970 (C-5A)
+Crew: 7
+Capacity: 
+	73 passengers in upper deck
+	8 passengers in forward upper deck
+	36 463L pallets
+	130,950 kg (291,000 lb) wartime cargo
+Payload: 36.88 m (121 ft) x 5.79 m (19 ft) x 4.11 m (13 ft 6 in)
+Length: 75.53 m (247 ft 10 in)
+Height: 19.81 m (65 ft) at tail
+Wing span: 67.88 m (222 ft 9 in)
+Wing area: 75.51 m² (6,200 sq ft)
+Cruise Mach: 0.73
+Maximum Mach at height: 0.77
+Weight empty: 169,644 kg (374,000 lb)
+Normal weight: 348,813 kg (769,000 lb)
+Maximum weight: 381,018 kg (840,000 lb)
+Maximum fuel: 145,125 kg (347,500 lb)
+Service ceiling: 10,303 m (34,000 ft)
+Maximum range: 4,445 km (2,400 nmi) empty without AAR
+Ferry range: 11,705 km (6,320 nmi) empty
+Takeoff distance, fully loaded: 2,530 m (8,300 ft)
+Landing distance, fully loaded: 1,494 m (4,900 ft)
+Takeoff distance, normal weight: 2,600 m (8,530 ft)
+Landing distance, normal weight: 1,550 m (5,085 ft)
+Powerplant: 4 x General Electric TF39-GE-1C turbofans, 183 kN (41,000 lbf) each
+
+The Lockheed C-5 Galaxy is a large military transport aircraft originally designed and built by Lockheed, and now maintained and upgraded by its successor, Lockheed Martin. It provides the United States Air Force (USAF) with a heavy intercontinental-range strategic airlift capability, one that can carry outsized and oversized loads, including all air-certifiable cargo. The Galaxy has many similarities to the smaller Lockheed C-141 Starlifter and the later Boeing C-17 Globemaster III. The C-5 is among the largest military aircraft in the world.
+
+The C-5 Galaxy's development was complicated, including significant cost overruns, and Lockheed suffered significant financial difficulties. Shortly after entering service, cracks in the wings of many aircraft were discovered and the C-5 fleet was restricted in capability until corrective work was completed. The C-5M Super Galaxy is an upgraded version with new engines and modernized avionics designed to extend its service life beyond 2040.
+
+The USAF has operated the C-5 since 1969. In that time, the airlifter supported US military operations in all major conflicts including Vietnam, Iraq, Yugoslavia, and Afghanistan, as well as allied support, such as Israel during the Yom Kippur War and operations in the Gulf War. The Galaxy has also been used to distribute humanitarian aid and disaster relief, and supported the US space program. 

@@ -1,0 +1,39 @@
+V-22
+
+v22_osprey
+
+
+Name: Bell Boeing V-22 Osprey
+Type: V/STOL military transport aircraft
+In service: 2007
+Crew: 3-4
+Capacity: 
+	9,070 kg (20,000 lb) internal cargo capacity
+	24 seated troops, or 32 floor troops
+Length: 17.48 m (57 ft 4 in)
+Length, folded: 19.091 m (62 ft 7.6 in)
+Width: 25.78 m (84 ft 6.8 in)
+Width, folded: 5.61 m (18 ft 5 in)
+Height: 6.73 m (22 ft 1 in) when engine nacelles vertical
+			5.38 m (17 ft 7.8 in) to tailfins
+Wing span: 13.97 m (45 ft 10 in)
+Wing area: 28.00 m² (301.4 sq ft)
+Empty weight: 14,432 kg (31,818 lb)
+Normal weight: 19,374 kg (42,712 lb)
+Maximum weight, VTO: 21,546 kg (47,500 lb)
+Maximum weight, STO: 24,948 kg (55,000 lb)
+Maximum Mach at height: 
+Cruise speed at S/L: 500 km/h (270 kt)
+G limit: +2.5/-0.42 at maximum load
+Range with normal load: 720 km (390 nmi)
+Ferry range: 4,130 km (2,230 nmi)
+Maximum fuel: 6,103 kg (13,455 lb)
+Service ceiling: 7,600 m (25,000 lb)
+Powerplant: 2 x Rolls-Royce T406-AD-400 turboprop/turboshaft engines, 4,590 kW (6,150 hp) each
+
+
+The Bell Boeing V-22 Osprey is an American multi-mission, tiltrotor military aircraft with both vertical takeoff and landing (VTOL), and short takeoff and landing (STOL) capabilities. It is designed to combine the functionality of a conventional helicopter with the long-range, high-speed cruise performance of a turboprop aircraft.
+
+The failure of Operation Eagle Claw during the Iran hostage crisis in 1980 underscored the requirement for a new long-range, high-speed, vertical-takeoff aircraft for the United States Department of Defense. In response, the Joint-service Vertical take-off/landing Experimental (JVX) aircraft program started in 1981. A partnership between Bell Helicopter and Boeing Helicopters was awarded a development contract in 1983 for the V-22 tiltrotor aircraft. The Bell Boeing team jointly produce the aircraft. The V-22 first flew in 1989, and began flight testing and design alterations; the complexity and difficulties of being the first tiltrotor for military service led to many years of development.
+
+The United States Marine Corps began crew training for the MV-22B Osprey in 2000, and fielded it in 2007; it supplemented and then replaced their Boeing Vertol CH-46 Sea Knights. The U.S. Air Force fielded their version of the tiltrotor, CV-22B, in 2009. Since entering service with the U.S. Marine Corps and Air Force, the Osprey has been deployed in transportation and medevac operations over Iraq, Afghanistan, Libya, and Kuwait. The U.S. Navy plan to use the CMV-22B for carrier onboard delivery (COD) duties beginning in 2021. 

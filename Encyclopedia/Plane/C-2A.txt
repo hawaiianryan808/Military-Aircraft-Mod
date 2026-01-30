@@ -1,0 +1,32 @@
+C-2A
+
+c2a_greyhound
+
+
+Name: Grumman C-2A Greyhound
+Type: Carrier-capable cargo transport
+In service: 1966
+Crew: 4 (2 pilots, 2 loadmasters)
+Capacity:
+	26 passengers
+	12 litter patients
+Payload: 4,536 kg (10,000 lb)
+Length: 17.32 m (56 ft 10 in)
+Height: 4.84 m (15 ft 10 in)
+Wing span: 24.56 m (80 ft 7 in)
+Wing area: 65 m² (700 sq ft)
+Maximum Mach at height: 0.54
+Weight empty: 15,307 kg (33,746 lb)
+Normal weight: 22,405 kg (49,394 lb)
+Maximum weight: 27,216 kg (60,000 lb)
+Maximum fuel: 5,624 kg (12,400 lb)
+Service ceiling: 10,200 m (33,500 ft)
+Range with maximum load: 2,400 km (1,300 nmi)
+Range with light load: 2,800 km (1,500 nmi)
+Ferry range: 3,700 km (2,000 nmi)
+Powerplant: 2 x Allison T56-A-425 turboprop engines, 3,400 kW (4,600 shp) each
+
+
+The Grumman C-2 Greyhound is a twin-engine, high-wing cargo aircraft, designed to carry supplies, mail, and passengers to and from aircraft carriers of the United States Navy. Its primary mission is carrier onboard delivery (COD). The aircraft provides critical logistics support to carrier strike groups. The aircraft is mainly used to transport high-priority cargo, mail, and passengers between carriers and shore bases, and can also deliver cargo such as jet engines and special stores.
+
+Prototype C-2s first flew in 1964, and production followed the next year. The initial Greyhound aircraft were overhauled in 1973. In 1984, more C-2As were ordered under designation Reprocured C-2A or C-2A(R). In 2010, all C-2A(R) aircraft received updated propellers (from four to eight blades) and navigational updates (glass cockpit). Starting in 2020, the U.S. Navy will start to replace the remaining 27 C-2As with 38 CMV-22Bs, expecting to fully replace the C-2 fleet by 2024. 

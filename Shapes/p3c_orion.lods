@@ -1,0 +1,8 @@
+model = {
+	lods = {	
+		{"P3C_Orion.edm",1000.000000};
+		{"P3C_Orion_lod01.edm",5000.000000};
+		{"P3C_Orion_lod02.edm",50000.000000};	
+	};
+	collision_shell = "P3C_Orion-collision.edm";
+}

@@ -1,0 +1,44 @@
+P-3C
+
+p3c_orion
+
+
+Name: Lockheed P-3C Orion
+Type: Maritime patrol aircraft
+In service: 1962 (P-3A), 1969 (P-3C)
+Crew: 11
+Length: 35.61 m (116ft 10 in)
+Height: 30.38 m (99ft 8 in)
+Wing span: 10.27 m (33 ft 8.5 in)
+Wing area: 120.77 m² (1,300 sq ft)
+Empty weight: 27,892 kg (61,491 lb)
+Normal weight: 61,235 kg (135,000 lb)
+Maximum weight: 64,410 kg (142,000 lb)
+Cruise speed: 611 km/h (330 kt)
+Maximum Mach at 15,000: 0.65
+Maximum mach at S/L: 
+Range with no loiter: 2,491 km (1,345 nmi)
+Ferry range: 8,950 km (4,830 nmi)
+Maximum fuel: 28,350 kg (62,500 lb)
+Service ceiling: 8,600 m (28,300 ft)
+Powerplant: 4 x Allison T56-A-14 turboprop engines, 3,660 kW (4,910 shp) each
+
+Armament: 10 wing stations in total (3 x on each wing and 2 x on each wing root) and eight internal bomb bay stations with a capacity of 9,100 kg (20,000 lb)
+	4 x AGM-65F Maverick
+	6 x AGM-84A/D Harpoon
+	4 x AGM-884H/K SLAM-ER (part of AIP)
+	10 x Mk.20 Rockeye II
+	8 x Mk.54, 3 x Mk.57 or 2 x Mk.101 depth charges
+	8 x Mk.46, 6 x Mk.50, 7 x Mk.54 torpedoes
+	6 x Mk.25/39/55/56 2000 lb mines
+	87 x sonobuoys
+
+The Lockheed P-3 Orion is a four-engine turboprop anti-submarine and maritime surveillance aircraft developed for the United States Navy and introduced in the 1960s. Lockheed based it on the L-188 Electra commercial airliner. The aircraft is easily distinguished from the Electra by its distinctive tail stinger or "MAD Boom", used for the magnetic detection of submarines.
+
+Over the years, the aircraft has seen numerous design developments, most notably in its electronics packages. Numerous navies and air forces around the world continue to use the P-3 Orion, primarily for maritime patrol, reconnaissance, anti-surface warfare and anti-submarine warfare. A total of 757 P-3s have been built and, in 2012, it joined the handful of military aircraft including the Boeing B-52 Stratofortress, Boeing KC-135 Stratotanker, Lockheed C-130 Hercules and the Lockheed U-2 that the United States military has been using for more than 50 years. The Boeing P-8 Poseidon will eventually replace the U.S. Navy's remaining P-3C aircraft. 
+
+Originally deployed in the late 1960s, the P-3C Orion has undergone a series of system upgrades to detect modern threats. The USQ-78(V) Upgrade Program is improving the USQ-78(V) Single Advanced Signal Processor system Display Control Unit, a programmable system control processor that provides post processing of acoustic data and is the main component of the Update III acoustic configuration. Up to 100 P-3C aircraft are being upgraded to USQ-78B configuration with System Controller (SC) and Acoustic Sub Unit (ASU) Tech Refreshes. In addition, all analog acoustic data recorders are being replaced with digital data recorders.
+
+The Critical Obsolescence Program (COP) began in fiscal year 2004 to improve aircraft availability through replacement of obsolete and/or top degrader systems. COP systems include the ARC-230 HF as replacement for the ARC-161, the USQ-130 Data Link as replacement for the ACQ-5, the ASW-60 Autopilot as replacement for the ASW-31, the ASX-6 Multi-Mode Imaging System (MMIS) as replacement for the AAS-36 IRDS and the Telephonics Secure Digital Intercommunications System (SDI) as replacement for the AIC-22 ICS.
+
+The Navy has shifted the P-3C’s operational emphasis to the littoral regions and is improving the antisurface warfare (ASUW) capabilities of the P-3C. The antisurface warfare improvement program (AIP) incorporates enhancements in ASUW, over-the-horizon targeting (OTH-T) and command, control, communications and intelligence (C4I), and improves survivability. The AIP program presently includes 72 kits on contract; 69 aircraft have been delivered to the fleet as of September 2006. Upgrades to the armament system include the addition of the AGM-84H/K SLAM-ER missile and Mk.54 torpedo capabilities.

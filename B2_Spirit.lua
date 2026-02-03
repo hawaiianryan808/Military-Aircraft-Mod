@@ -173,7 +173,7 @@ B2_Spirit =  {
 	WorldID					= WSTYPE_PLACEHOLDER,
 	date_of_introduction	= 1997.01,
 	defFuelRatio    		= 0.8,
-	
+
 	shape_table_data 		= {
 		{
 			file  	 		= "B2_Spirit",
@@ -192,22 +192,22 @@ B2_Spirit =  {
 			fire  			= {240, 2},
 		},
 	},
-	
+
 	singleInFlight 			= true,
 	mapclasskey 			= "P0091000027",
 	attribute  				= {wsType_Air, wsType_Airplane, wsType_F_Bomber, WSTYPE_PLACEHOLDER, "Strategic bombers", "Refuelable", "Datalink", "Link16"},
 	Categories 				= {},
-	
+
 	-- ===================================================================
 	-- MASS & DIMENSIONS
 	-- ===================================================================
-	
+
 	-- Mass Parameters
 	M_empty					= 71700,			-- [kg] OEW (approx 158,000 lbs)
 	M_nominal				= 152600,			-- [kg] Normal Mission Weight
 	M_max					= 170600,			-- [kg] MTOW (approx 376,000 lbs)
 	M_fuel_max				= 75750,			-- [kg] Max Fuel (approx 167,000 lbs)
-	
+
 	-- Dimensions
 	length					= 21.0,				-- [m] Length
 	height					= 5.18,				-- [m] Height
@@ -221,14 +221,14 @@ B2_Spirit =  {
 	-- ===================================================================
 	-- Flying wing configuration: High Roll/Yaw inertia due to span, moderate Pitch inertia.
 	-- DCS TsAGI Coords: x=Roll, y=Yaw, z=Pitch
-	
+
 	center_of_mass			= {1.55, 0.4, 0},	-- [m] CG relative to model origin
 	moment_of_inertia		= {15.5e6, 28.5e6, 12.5e6, -100e3}, -- [kg*m^2] {Roll, Yaw, Pitch, POI} Estimated for flying wing
 
 	-- ===================================================================
 	-- PERFORMANCE PARAMETERS
 	-- ===================================================================
-	
+
 	-- Speeds
 	V_opt					= 250,				-- [m/s TAS] Cruise speed (Mach 0.85 @ Alt)
 	V_take_off				= 77,				-- [m/s TAS] Takeoff speed (~150 kts)
@@ -237,33 +237,33 @@ B2_Spirit =  {
 	V_max_h					= 285,				-- [m/s TAS] Max speed @ Alt (Mach 0.95)
 	Mach_max				= 0.95,				-- [Mach] Subsonic limit
 	CAS_min					= 65,				-- [m/s] Stall speed
-	
+
 	-- Climb & Ceiling
 	H_max					= 15240,			-- [m] Service ceiling (50,000 ft)
 	Vy_max					= 25,				-- [m/s] Max climb rate
-	
+
 	-- Range & Fuel
 	range					= 11100,			-- [km] Max unrefueled range
 	average_fuel_consumption = 1.15,			-- [kg/s] Efficient high-bypass cruise
-	
+
 	-- Limits
 	Ny_min					= -1.0,				-- [G] Min G
 	Ny_max					= 2.5,				-- [G] Max G (Structural limit for heavy bomber)
 	Ny_max_e				= 3.0,				-- [G] Emergency G
 	bank_angle_max			= 45,				-- [deg] Bank limit
 	AOA_take_off			= 0.14,				-- [rad] Rotation AoA
-	flaps_maneuver 			= 1.0,
-	
+	flaps_maneuver 			= 0.5,
+
 	-- ===================================================================
 	-- PROPULSION (4x F118-GE-100)
 	-- ===================================================================
-	
+
 	engines_count			= 4,
 	thrust_sum_max			= 31400,			-- [kgf] Total Dry Thrust (~69,200 lbs)
 	thrust_sum_ab			= 31400,			-- [kgf] No Afterburner
 	has_afteburner			= false,
 	has_thrustReverser		= false,			-- B-2 uses split-rudders for drag/yaw, not TR
-	
+
 	engines_nozzles = {
 		{
 			pos 				= {-3.0, -0.34, -4.60},
@@ -303,24 +303,24 @@ B2_Spirit =  {
 	-- ===================================================================
 	-- SYSTEMS & EQUIPMENT
 	-- ===================================================================
-	
+
 	has_speedbrake			= true,				-- [bool] Split rudders act as speedbrakes
 	radar_can_see_ground	= true,				-- [bool] Aircraft can detect ground & sea surface units
 	EPLRS 					= true,				-- [bool] Enhanced Position Location Reporting System (EPLRS) for Link-16
 	brakeshute_name			= 0,				-- No drag chute model
-	
+
 	-- Stealth Characteristics
 	RCS						= 0.001,			-- [m^2] Extremely Low RCS (Game approximation)
 	IR_emission_coeff		= 0.10,				-- [scalar] Shielded exhausts, very low IR
 	IR_emission_coeff_ab	= 0.0,				-- [scalar] No AB
 	detection_range_max		= 40,				-- [km] Max detection range of aircraft/ground vehicles/ships
-	
+
 	-- Gear Geometry
 	nose_gear_pos 			= {9.7, -3.64, 0},
 	main_gear_pos 			= {-0.14, -3.646, 6.18},
 	nose_gear_wheel_diameter = 0.94,			-- [m] Diameter of the nose gear wheels
 	main_gear_wheel_diameter = 1.09,			-- [m] Diameter of the main gear wheels
-	
+
 	nose_gear_amortizer_direct_stroke 		 =  0.0,	-- Full Strut Expansion (no weight on wheels) (arg 2)
 	nose_gear_amortizer_reversal_stroke 	 = -0.2396,	-- Full Strut Compression (maximum+ weight on wheels)
 	nose_gear_amortizer_normal_weight_stroke = -0.1331,	-- Strut Weight Compression (normal compression with weight on wheels; number is amount of "chrome showing")
@@ -328,9 +328,9 @@ B2_Spirit =  {
 	main_gear_amortizer_direct_stroke 		 =  0.0,	-- Full Strut Expansion (no weight on wheels) (args 4 and 6)
 	main_gear_amortizer_reversal_stroke 	 = -0.168,	-- Full Strut Compression (maximum+ weight on wheels)
 	main_gear_amortizer_normal_weight_stroke = -0.0933, -- Strut Weight Compression (normal compression with weight on wheels; number is amount of "chrome showing")
-	
+
 	tand_gear_max	=	math.tan(math.rad(60)),	-- [tan] Nose wheel steering angle
-	
+
 	-- Refueling
 	is_tanker				= false,
 	tanker_type				= 1,				-- [enum] 1=Boom receiver
@@ -395,7 +395,7 @@ B2_Spirit =  {
 			cx_flap				= 0.04,				-- [coeff] Flap drag
 			cy_flap				= 0.6,				-- [coeff] Flap lift
 			cx_brk				= 0.06,				-- [coeff] Airbrake drag (Split rudders)
-			
+
 			table_data = {
 				-- Aerodynamic Drag Polar Table
 				-- M: Mach, Cx0: Zero-lift drag, Cya: Normal force coeff, B: Polar shape
@@ -412,7 +412,7 @@ B2_Spirit =  {
 				[9] = 	{1.05,	0.080,	0.085,	0.360,	0.056,	0.1,	12,		0.5},
 			},
 		},
-		
+
 		engine = {
 			Nmg					= 63.0,				-- [%] Idle RPM
 			Nominal_RPM 		= 14500,			-- 100% speed high pressure turbine (N2)
@@ -427,7 +427,7 @@ B2_Spirit =  {
 			cefor				= 0.72,				-- [kg/kgf/h] Same as dry
 			dpdh_m				= 1500,				-- [N/km] Thrust loss with altitude
 			dpdh_f				= 1500,
-			
+
 			table_data = {
 				-- F118-GE-100 Thrust Profile (Approximate)
 				-- Static thrust ~77kN (7850 kgf) per engine
@@ -524,14 +524,12 @@ B2_Spirit =  {
 		modulation = MODULATION_AM,
 	},
 
-	Guns = { }, -- No internal gun
-
 	Pylons = {
 		-- Internal rotary launcher bays simulated as pylons
 		pylon(1, 2, -2.218, -0.63, -5.77, {}, available_payload),
 		pylon(2, 2, -1.069, -0.42, -2.21, {}, available_payload),
 	},
-	
+
 	Tasks = {
 		aircraft_task(GroundAttack),
 		aircraft_task(RunwayAttack),

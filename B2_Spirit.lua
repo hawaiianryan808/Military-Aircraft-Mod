@@ -130,6 +130,7 @@ declare_loadout({
 		Position	= {0, 0, 0},
 		ShapeName	= "GBU-27",
 	}},
+	settings		= Get_Combined_GUISettings_Preset("Paveway_III_HTP"),
 })
 
 declare_loadout({
@@ -164,7 +165,6 @@ local available_payload  = {
 -- ===================================================================
 
 B2_Spirit =  {
-	
 	Name 					= "B2_Spirit",
 	DisplayName				= _("B-2 Spirit"),
 	Picture 				= "B2_Spirit.png",
@@ -176,12 +176,12 @@ B2_Spirit =  {
 	
 	shape_table_data 		= {
 		{
-			file  	 		= 'B2_Spirit',
+			file  	 		= "B2_Spirit",
 			life  	 		= 25, 				-- [hitpoints] Robust airframe
 			vis   	 		= 3, 				-- [scalar] Visibility gain
-			desrt    		= 'B2_Spirit-oblomok',
+			desrt    		= "B2_Spirit-oblomok",
 			fire  	 		= {300, 2}, 		-- [sec, m] Fire duration, size
-			username		= 'B2_Spirit',
+			username		= "B2_Spirit",
 			index       	= WSTYPE_PLACEHOLDER,
 			classname   	= "lLandPlane",
 			positioning 	= "BYNORMAL",
@@ -214,6 +214,7 @@ B2_Spirit =  {
 	wing_area				= 478.0,			-- [m^2] Wing Area (Flying Wing)
 	wing_span				= 52.4,				-- [m] Wingspan
 	wing_type				= 0,				-- [enum] 0=FIXED_WING
+	wing_tip_pos 			= {-7.25, -0.481, 26.2},
 
 	-- ===================================================================
 	-- INERTIA & CG
@@ -243,7 +244,7 @@ B2_Spirit =  {
 	
 	-- Range & Fuel
 	range					= 11100,			-- [km] Max unrefueled range
-	average_fuel_consumption= 1.15,				-- [kg/s] Efficient high-bypass cruise
+	average_fuel_consumption = 1.15,			-- [kg/s] Efficient high-bypass cruise
 	
 	-- Limits
 	Ny_min					= -1.0,				-- [G] Min G
@@ -251,6 +252,7 @@ B2_Spirit =  {
 	Ny_max_e				= 3.0,				-- [G] Emergency G
 	bank_angle_max			= 45,				-- [deg] Bank limit
 	AOA_take_off			= 0.14,				-- [rad] Rotation AoA
+	flaps_maneuver 			= 1.0,
 	
 	-- ===================================================================
 	-- PROPULSION (4x F118-GE-100)
@@ -268,37 +270,34 @@ B2_Spirit =  {
 			elevation			= 0.0,
 			diameter			= 0.3,
 			exhaust_length_ab	= 2.0,
-			exhaust_length_ab_K	= 0.1,	
+			exhaust_length_ab_K	= 0.1,
 			smokiness_level     = 0.05, 		-- [scalar] Very clean exhaust (Stealth)
-			engine_number		= 1,
-		}, 
+		},
 		{
 			pos 				= {-3.0, -0.255, -3.40},
 			elevation			= 0.0,
 			diameter			= 0.3,
 			exhaust_length_ab	= 2.0,
-			exhaust_length_ab_K	= 0.1,	
+			exhaust_length_ab_K	= 0.1,
 			smokiness_level     = 0.05,
 			engine_number       = 2,
-		}, 
+		},
 		{
 			pos 				= {-3.0, -0.255, 3.40},
 			elevation			= 0.0,
 			diameter			= 0.3,
 			exhaust_length_ab	= 2.0,
-			exhaust_length_ab_K	= 0.1,	
+			exhaust_length_ab_K	= 0.1,
 			smokiness_level     = 0.05,
-			engine_number       = 3,
-		}, 
+		},
 		{
 			pos 				= {-3.0, -0.34, 4.60},
 			elevation			= 0.0,
 			diameter			= 0.3,
 			exhaust_length_ab	= 2.0,
-			exhaust_length_ab_K	= 0.1,	
+			exhaust_length_ab_K	= 0.1,
 			smokiness_level     = 0.05,
-			engine_number       = 4,
-		}, 
+		},
 	},
 
 	-- ===================================================================
@@ -307,6 +306,8 @@ B2_Spirit =  {
 	
 	has_speedbrake			= true,				-- [bool] Split rudders act as speedbrakes
 	radar_can_see_ground	= true,				-- [bool] Aircraft can detect ground & sea surface units
+	EPLRS 					= true,				-- [bool] Enhanced Position Location Reporting System (EPLRS) for Link-16
+	brakeshute_name			= 0,				-- No drag chute model
 	
 	-- Stealth Characteristics
 	RCS						= 0.001,			-- [m^2] Extremely Low RCS (Game approximation)
@@ -317,8 +318,8 @@ B2_Spirit =  {
 	-- Gear Geometry
 	nose_gear_pos 			= {9.7, -3.64, 0},
 	main_gear_pos 			= {-0.14, -3.646, 6.18},
-	nose_gear_wheel_diameter= 0.94,				-- [m] Diameter of the nose gear wheels
-	main_gear_wheel_diameter= 1.09,				-- [m] Diameter of the main gear wheels
+	nose_gear_wheel_diameter = 0.94,			-- [m] Diameter of the nose gear wheels
+	main_gear_wheel_diameter = 1.09,			-- [m] Diameter of the main gear wheels
 	
 	nose_gear_amortizer_direct_stroke 		 =  0.0,	-- Full Strut Expansion (no weight on wheels) (arg 2)
 	nose_gear_amortizer_reversal_stroke 	 = -0.2396,	-- Full Strut Compression (maximum+ weight on wheels)
@@ -351,35 +352,31 @@ B2_Spirit =  {
 			bailout_arg 		= -1,
 		},
 	},
-	
-	-- Countermeasures
-	passivCounterm = { },	
-	
-	chaff_flare_dispenser = { },
-	
-	Countermeasures = {
-		ECM = "AN/ALQ-161",
+
+	CanopyGeometry = {
+		azimuth = {-110.0, 110.0},
+		elevation = {-20.0, 15.0}
 	},
 
 	Sensors = {
 		OPTIC 				= {"Sniper XR FLIR", "Sniper XR CCD TV"}, -- Placeholder for targeting systems
 		RADAR 				= "B-1B SS radar",
-		RWR 				= "Abstract RWR"
+		RWR 				= "Abstract RWR",
 	},
-	
+
 	-- Damage Fires
 	fires_pos = {
-		[1] = 	{0.338,		-0.815,	0},
-		[2] = 	{-3.491,	-0.153,	4.263},
-		[3] = 	{-3.491,	-0.153,	-4.263},
-		[4] = 	{-0.82,		0.265,	2.774},
-		[5] = 	{-0.82,		0.265,	-2.774},
-		[6] = 	{-0.82,		0.255,	4.274},
-		[7] = 	{-0.82,		0.255,	-4.274},
-		[8] = 	{-8.938,	-1.237,	2.985},
-		[9] = 	{-8.938,	-1.237,	-2.985},
-		[10] = 	{-8.938,	-1.154,	4.571},
-		[11] = 	{-8.938,	-1.154,	-4.571},
+		[1] = 	{0.338,		-0.815,	  0},
+		[2] = 	{-3.491,	-0.153,	  4.263},
+		[3] = 	{-3.491,	-0.153,	 -4.263},
+		[4] = 	{-0.82,		 0.265,	  2.774},
+		[5] = 	{-0.82,		 0.265,	 -2.774},
+		[6] = 	{-0.82,		 0.255,	  4.274},
+		[7] = 	{-0.82,		 0.255,	 -4.274},
+		[8] = 	{-8.938,	-1.237,	  2.985},
+		[9] = 	{-8.938,	-1.237,	 -2.985},
+		[10] = 	{-8.938,	-1.154,	  4.571},
+		[11] = 	{-8.938,	-1.154,	 -4.571},
 	},
 
 	-- ===================================================================
@@ -471,7 +468,20 @@ B2_Spirit =  {
 		[36] = {critical_damage = 10, args = {215}, deps_cells = {24, 30, 26, 38}}, -- WING_R_IN
 		[37] = {critical_damage = 4,  args = {228}}, -- FLAP_L_IN
 		[38] = {critical_damage = 4,  args = {218}}, -- FLAP_R_IN
+		[40] = {critical_damage = 2,  args = {241}, deps_cells = {54}},--FIN_R_TOP 
+		[43] = {critical_damage = 2,  args = {243}, deps_cells = {39, 53}},--FIN_L_BOTTOM
+		[44] = {critical_damage = 2,  args = {242}, deps_cells = {40, 54}},--FIN_R_BOTTOM 
+		[51] = {critical_damage = 2,  args = {240}},--ELEVATOR_L_IN
+		[52] = {critical_damage = 2,  args = {238}},--ELEVATOR_R_IN
+		[53] = {critical_damage = 2,  args = {248}},--RUDDER_L
+		[54] = {critical_damage = 2,  args = {247}},--RUDDER_R
+		[56] = {critical_damage = 2,  args = {158}},--TAIL_LEFT_SIDE
+		[57] = {critical_damage = 2,  args = {157}},--TAIL_RIGHT_SIDE
+		[59] = {critical_damage = 3,  args = {148}},--NOSE_BOTTOM
+		[61] = {critical_damage = 2,  args = {147}},--FUEL_TANK_F
 		[82] = {critical_damage = 5,  args = {152}}, -- FUSELAGE_BOTTOM
+		[105] = {critical_damage = 2,  args = {603}},--ENGINE_3
+		[106] = {critical_damage = 2,  args = {604}},--ENGINE_4
 	},
 	
 	DamageParts = {  
@@ -484,15 +494,15 @@ B2_Spirit =  {
 	-- ===================================================================
 	
 	Failures = {
-		{ id = 'asc', 		label = _('ASC'), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'autopilot', label = _('AUTOPILOT'), enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'hydro',  	label = _('HYDRO'), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'l_engine',  label = _('L-ENGINE'), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'r_engine',  label = _('R-ENGINE'), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'radar',  	label = _('RADAR'), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'ecm',   	label = _('ECM'), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'hud',  		label = _('HUD'), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
-		{ id = 'mfd',  		label = _('MFD'), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },		
+		{ id = "asc", 		label = _("ASC"), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "autopilot", label = _("AUTOPILOT"), enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "hydro",  	label = _("HYDRO"), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "l_engine",  label = _("L-ENGINE"), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "r_engine",  label = _("R-ENGINE"), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "radar",  	label = _("RADAR"), 	enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "ecm",   	label = _("ECM"), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "hud",  		label = _("HUD"), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
+		{ id = "mfd",  		label = _("MFD"), 		enable = false, hh = 0, mm = 0, mmint = 1, prob = 100 },
 	},
 	
 	-- ===================================================================
@@ -500,8 +510,8 @@ B2_Spirit =  {
 	-- ===================================================================
 
 	HumanRadio = {
-		frequency	= 251.0,
-		editable	= true,
+		frequency		= 251.0,
+		editable		= true,
 		minFrequency	= 30.000,
 		maxFrequency	= 399.975,
 		rangeFrequency = {
@@ -509,7 +519,7 @@ B2_Spirit =  {
 			{min = 108.0, max = 135.995, modulation	= MODULATION_AM},
 			{min = 136.0, max = 155.995, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_FM},
 			{min = 156.0, max = 173.975, modulation	= MODULATION_FM},
-			{min = 225.0, max = 399.975, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_AM}
+			{min = 225.0, max = 399.975, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_AM},
 		},
 		modulation = MODULATION_AM,
 	},

@@ -417,15 +417,17 @@ B2_Spirit =  {
 		},
 		
 		engine = {
-			Nmg					= 60.0,				-- [%] Idle RPM
+			Nmg					= 63.0,				-- [%] Idle RPM
+			Nominal_RPM 		= 14500,			-- 100% speed high pressure turbine (N2)
+			Nominal_Fan_RPM 	= 8700,				-- 100% speed fan (N1)
 			MinRUD				= 0,
 			MaxRUD				= 1,
 			MaksRUD				= 1.0,				-- [scalar] Max dry power
 			ForsRUD				= 1.0,				-- [scalar] No AB
 			type				= "TurboFan",
 			hMaxEng				= 16,				-- [km] Max engine alt
-			cemax				= 0.35,				-- [kg/kgf/h] Low SFC (High bypass)
-			cefor				= 0.35,				-- [kg/kgf/h] Same as dry
+			cemax				= 0.72,				-- [kg/kgf/h] Low SFC (High bypass)
+			cefor				= 0.72,				-- [kg/kgf/h] Same as dry
 			dpdh_m				= 1500,				-- [N/km] Thrust loss with altitude
 			dpdh_f				= 1500,
 			

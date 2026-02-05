@@ -252,7 +252,7 @@ B2_Spirit =  {
 	Ny_max_e				= 3.0,				-- [G] Emergency G
 	bank_angle_max			= 45,				-- [deg] Bank limit
 	AOA_take_off			= 0.14,				-- [rad] Rotation AoA
-	flaps_maneuver 			= 0.5,
+	flaps_maneuver 			= 1.0,
 
 	-- ===================================================================
 	-- PROPULSION (4x F118-GE-100)
@@ -310,7 +310,7 @@ B2_Spirit =  {
 	brakeshute_name			= 0,				-- No drag chute model
 
 	-- Stealth Characteristics
-	RCS						= 0.001,			-- [m^2] Extremely Low RCS (Game approximation)
+	RCS						= 0.0005,			-- [m^2] Extremely Low RCS (large physical size = broadband stealth)
 	IR_emission_coeff		= 0.10,				-- [scalar] Shielded exhausts, very low IR
 	IR_emission_coeff_ab	= 0.0,				-- [scalar] No AB
 	detection_range_max		= 40,				-- [km] Max detection range of aircraft/ground vehicles/ships
@@ -516,8 +516,8 @@ B2_Spirit =  {
 		maxFrequency	= 399.975,
 		rangeFrequency = {
 			{min =  30.0, max =  87.975, modulation	= MODULATION_FM},
-			{min = 108.0, max = 135.995, modulation	= MODULATION_AM},
-			{min = 136.0, max = 155.995, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_FM},
+			{min = 108.0, max = 136.975, modulation	= MODULATION_AM},
+			{min = 137.0, max = 155.995, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_FM},
 			{min = 156.0, max = 173.975, modulation	= MODULATION_FM},
 			{min = 225.0, max = 399.975, modulation	= MODULATION_AM_AND_FM, modulationDef = MODULATION_AM},
 		},

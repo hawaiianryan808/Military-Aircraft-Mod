@@ -492,7 +492,7 @@ C2A_Greyhound =  {
                             proto = lamp_prototypes.LFS_P_27_200, angle_max = math.rad(30.0), angle_min = math.rad(30.0 * 0.8),
                         },
                         {
-                            typename = "Spot", connector = "RESERV_SPOT_PTR", dir_correction = {azimuth = math.rad(-10.0), elevation = math.rad(10.0)},
+                            typename = "Spot", connector = "MAIN_SPOT_PTR", dir_correction = {azimuth = math.rad(-10.0), elevation = math.rad(10.0)},
                             proto = lamp_prototypes.LFS_P_27_200, angle_max = math.rad(30.0), angle_min = math.rad(30.0 * 0.8),
                         },
                     },
@@ -510,7 +510,7 @@ C2A_Greyhound =  {
                             proto = lamp_prototypes.LFS_P_27_200, angle_max = math.rad(30.0), angle_min = math.rad(30.0 * 0.8),
                         },
                         {
-                            typename = "Spot", connector = "RESERV_SPOT_PTR", dir_correction = {azimuth = math.rad(-10.0), elevation = math.rad(10.0)},
+                            typename = "Spot", connector = "MAIN_SPOT_PTR", dir_correction = {azimuth = math.rad(-10.0), elevation = math.rad(10.0)},
                             proto = lamp_prototypes.LFS_P_27_200, angle_max = math.rad(30.0), angle_min = math.rad(30.0 * 0.8),
                         },
                     },
